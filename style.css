@@ -1,14 +1,21 @@
 #header-sec {
-  padding-left: 100px;
+  background-color: rgb(250, 240, 248);
   text-align: center;
   height: 100px;
-  background-color: blanchedalmond;
-  margin-top: 0%;
+
   padding-top: 0px;
   margin-top: 0px;
 }
+#food-zone {
+  color: rgb(255, 60, 0);
+  padding: auto;
+}
 body {
   font-family: "Inter", sans-serif;
+  margin: 0%;
+}
+#top-text {
+  margin-top: 100px;
 }
 .text-decor {
   text-align: justify;
@@ -31,7 +38,7 @@ body {
   font-size: 18px;
   padding: 8px;
   color: rgb(255, 255, 255);
-  box-shadow: 3px;
+  box-shadow: 0 3px 20px rgb(246, 103, 199);
   border-radius: 20px;
   background-image: linear-gradient(rgb(250, 19, 219), rgb(219, 147, 13));
 }
@@ -51,9 +58,26 @@ body {
   text-align: center;
   padding: 0px 300px;
 }
+.last-div {
+  margin-top: 30px;
+  display: flex;
+  padding-left: 120px;
+}
+.last-div-item {
+  align-items: center;
+  width: 320px;
+  margin-right: 50px;
+  padding: 10px 10px 10px 10px;
+  box-shadow: 0 5px 25px rgb(185, 183, 183);
+  border-radius: 20px;
+}
+.last-div-img {
+  border-radius: 20px;
+}
 
 #footer-part {
   text-align: center;
-  background-color: rgb(119, 117, 117);
+  background-color: rgb(170, 170, 170);
+  margin-top: 80px;
   padding-bottom: 30px;
 }
